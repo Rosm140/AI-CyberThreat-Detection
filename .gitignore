@@ -1,7 +1,16 @@
+# Virtual environment
 venv/
+
+# Python cache
 __pycache__/
 *.pyc
+
+# Dataset (too big)
 data/
 *.csv
+
+# Jupyter
 .ipynb_checkpoints/
+
+# Ignore big training split file
 model/split_data.pkl
